@@ -16,7 +16,6 @@ movie_users_ds.head()
 
 # The movie dataset is not in default format. Here, seperator is ` | ` (pipe) and 1st column is not header.
 
-
 column_list = ['User_id', 'Age', 'Gender', 'Occupation', 'Zip-code']    # For column header
 movie_users_ds = pd.read_table('http://bit.ly/movieusers', sep='|', header = None, names = column_list )
 
