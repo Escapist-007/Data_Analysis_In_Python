@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 
 # IMDB - Internet Movie Database (Dataset)
@@ -13,4 +11,3 @@ movie_ratings_ds.dtypes      # Show the datatype of all columns
 
 movie_ratings_ds.describe(include=['object']) 
 # top --> Record having highest frequency , freq --> No. of frequecny of the top record
-
